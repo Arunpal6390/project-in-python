@@ -107,7 +107,7 @@ def play():
 				else:
 					print("Better luck next time...correct word is :", picked_word)
 
-				c = int(input("press 1 to continue and 0 to quit :"))
+				c = int(input("press 1 to continue your game and press 0 to check your score :"))
 
 				# checking the c is equal to 0 or not
 				# if c is equal to 0 then break out
@@ -141,14 +141,14 @@ def play():
 				else:
 					print("Better luck next time...correct word is :", picked_word)
 
-					c = int(input("press 1 to continue and 0 to quit :"))
+					c = int(input("press 1 to continue your game and press 0 to check your score :"))
 
 					if c == 0:
 						# thank() function calling
 						thank(p1name, p2name, pp1, pp2)
 						break
 
-			c = int(input("press 1 to continue and 0 to quit :"))
+			c = int(input("press 1 to continue your game and press 0 to check your score :"))
 			if c == 0:
 				# thank() function calling
 				thank(p1name, p2name, pp1, pp2)
